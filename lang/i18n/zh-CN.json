@@ -1,0 +1,88 @@
+{
+    "root": {
+        "welcome": "🌺 欢迎使用 plugin 脚手架!",
+        "tplPromptInit": {
+            "message": "🍟 请选择模板!",
+            "default": "默认模板(vite+vue3+ts)",
+            "custom": "自定义模板"
+        },
+        "prompts": {
+            "projectNameMessage": "项目名称?",
+            "versionMessage": "版本号: ",
+            "authorMessage": "作者: ",
+            "emailMessage": "电子邮箱: ",
+            "licenseMessage": "请选择你想要的协议: ",
+            "isSupportGitMessage": "是否支持git?"
+        },
+        "customPrompts": {
+            "customRemoteMessage": "🐝 请输入您的自定义模板的git路径",
+            "empty": "😱 你想干啥? 空地址?????"
+        },
+        "copy": {
+            "start": "😋 开始从默认模板复制\n",
+            "finish": "🎉 完成从默认模板复制"
+        },
+        "download": {
+            "start": "😋 开始远程下载模板: ",
+            "finish": "🎉 完成远程下载模板: "
+        },
+        "npm_install": {
+            "message": "🚀 现在安装node_modules?"
+        },
+        "npm": {
+            "sudoInstall": "请执行 sudo npm install",
+            "finishInstalling": "📦 完成安装依赖项.",
+            "npmInstall": "🚗 请在 run 之前 执行 npm install ",
+            "done": "🎉 完成!",
+            "run": "🚗 请执行：npm run dev"
+        },
+        "successfully": "🎉 成功创建项目！现在您可以运行: "
+    },
+    "h": {
+        "root": {
+            "doc": "工具文档：",
+            "author": "author by @biao_liu biao_liu@foxitsoftware.com"
+        },
+        "yo": {
+            "title": "Yeoman 命令",
+            "help": "   yo plugin:h       显示帮助",
+            "implement": "   yo plugin         在根目录执行，初始化Project",
+            "lang": "   yo plugin:lang    设置脚手架语言",
+            "tc": "   yo plugin:tc      克隆远端模板配置文件到脚手架",
+            "sc": "   yo plugin:sc      设置远端模板配置文件下载路径"
+        },
+        "project": {
+            "title": "项目   命令",
+            "startUp": "   npm run dev     本地开发启动命令",
+            "build": "   npm run build   本地build",
+            "lint": "   npm run lint    本地eslint检测"
+        }
+    },
+    "tc": {
+        "oraStar": "开始从远程下载模板文件: ",
+        "oraFinish": "模板文件下载完成"
+    },
+    "sc": {
+        "templateConfig": {
+            "custom": "自定义路径 (例如: https://xxx.xxx.xxx/templateConfig.js)",
+            "default": "默认配置"
+        },
+        "message": "请选择执行方式: ",
+        "input": "请输入自定义下载路径",
+        "default": "😸 您使用了默认路径",
+        "remote": "😸 您使用了远程路径",
+        "empty": "😱 你想干啥? 空地址?????",
+        "end": {
+            "done": "🎉 完成"
+        }
+    },
+    "logo": {
+        "needHelp": "需要帮助?"
+    },
+    "lang": {
+        "prompt": {
+            "lang": "请选择您想设置的语言!",
+            "default": "默认(中文)"
+        }
+    }
+}

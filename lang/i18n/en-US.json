@@ -1,0 +1,89 @@
+{
+    "root": {
+        "welcome": "🌺 Welcome to the generator-plugin generator!",
+        "tplPromptInit": {
+            "message": "🍟 Please select a template!",
+            "default": "Default Template(vite+vue3+ts)",
+            "custom": "Custom Template"
+        },
+        "prompts": {
+            "projectNameMessage": "Name of Project?",
+            "versionMessage": "Version: ",
+            "authorMessage": "Author Name:",
+            "emailMessage": "Author Email: ",
+            "licenseMessage": "Please choose license: ",
+            "isSupportGitMessage": "Is git supported?"
+        },
+        "customPrompts": {
+            "customRemoteMessage": "🐝 Please enter git path of your custom template",
+            "empty": "😱 What do you want? Empty address?????"
+        },
+        "copy": {
+            "start": "😋 Start Copy template from default template \n",
+            "finish": "🎉 Finish Copying template from default template"
+        },
+        "download": {
+            "start": "😋 Start remote download from",
+            "finish": "🎉 Finish downloading the template from"
+        },
+        "npm_install": {
+            "message": "🚀 Now install node_ modules?"
+        },
+        "npm": {
+            "sudoInstall": "please run sudo npm install",
+            "finishInstalling": "📦 Finish installing dependencies.",
+            "npmInstall": "🚗 please run npm install before npm run dev ",
+            "done": "🎉 done!",
+            "run": "🚗 please run：npm run dev"
+        },
+        "successfully": "🎉 Create project successfully! Now you can run: "
+    },
+    "h": {
+        "root": {
+            "doc": "Tool documentation：",
+            "author": "author by @biao_liu biao_liu@foxitsoftware.com"
+        },
+        "yo": {
+            "title": "Yeoman command",
+            "help": "   yo plugin:h       Show help",
+            "implement": "   yo plugin         Execute in the root directory, initialize Project",
+            "lang": "   yo plugin:lang    Set generator language",
+            "tc": "   yo plugin:tc      Clone remote template configuration file to generator",
+            "sc": "   yo plugin:sc      Set remote template profile download path"
+        },
+        "project": {
+            "title": "Project command",
+            "startUp": "   npm run dev     Local development start command",
+            "build": "   npm run build   Local build",
+            "lint": "   npm run lint    Local eslint check"
+        }
+    },
+    "tc": {
+        "oraStar": "Start downloading template files from remote: ",
+        "oraFinish": "Template file download complete."
+    },
+    "sc": {
+        "templateConfig": {
+            "custom": "Custom Path (eg: https://xxx.xxx.xxx/templateConfig.js)",
+            "default": "Default"
+        },
+        "message": "Please select the type: ",
+        "input": "Please enter a custom download path",
+        "default": "😸 You used the default path",
+        "remote": "😸 You used a remote path",
+        "empty": "😱 What do you want? Empty address?????",
+        "end": {
+            "done": "🎉 done!"
+        }
+    },
+    "logo": {
+        "needHelp": "Need help?"
+    },
+    "lang": {
+        "prompt": {
+            "lang": "Please select the language!",
+            "default": "默认(中文)"
+        }
+    }
+}
+
