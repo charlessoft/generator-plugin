@@ -1,5 +1,5 @@
 {
-  "name": "generator-plugin",
+  "name": "generator-plugin-hello",
   "version": "1.0.0",
   "description": "plugin脚手架",
   "homepage": "https://gitlab.foxitsoftware.com/foxit/phantom/pluginsdk/generator-plugin",
@@ -20,7 +20,7 @@
     "lint": "./node_modules/.bin/eslint --no-fix ./**/*.js"
   },
   "keywords": [
-    "generator-plugin",
+    "generator-plugin-hello",
     "yeoman-generator"
   ],
   "dependencies": {
