@@ -65,7 +65,7 @@ module.exports = class extends Generator {
         // 添加默认选项
         // templateName.unshift(this.rootJSON.tplPromptInit.default);
         // 添加自定义选项
-        templateName.push(this.rootJSON.tplPromptInit.custom);
+        // templateName.push(this.rootJSON.tplPromptInit.custom);
         let promptInit = [{
             type: 'list',
             name: 'choicesTemplateName',
