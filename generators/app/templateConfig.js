@@ -1,7 +1,7 @@
 module.exports = [
     {
         name: 'template-vue3-starter', // 名称，后续脚手架交互显示
-        url: 'https://github.com/charlessoft/plugin_template.git#template-vue3-starter' // 远端维护的模板，必须git [github | gitlab]
+        url: 'https://github.com/foxitsoftware/js_plugin_template.git#template-vue3-starter' // 远端维护的模板，必须git [github | gitlab]
     },
     {
         name: 'template-javascript', // 名称，后续脚手架交互显示
